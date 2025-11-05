@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    float m1    =    100;    //math subject
+    float m2     =    98;    //physics
+    float m3    =    66;    //chamistry
+    float m4    =    88;    //english
+    float m5        =    98;    //Computer science
+    float p    =    (m1+m2+m3+m4+m5)/5;
+    printf("The percentage is %f",p);
+    return 0;
+}
